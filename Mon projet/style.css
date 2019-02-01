@@ -1,0 +1,78 @@
+/* GENERAL */
+
+body
+{
+    font-family: cursive,sans-serif;
+}
+
+
+    
+h1,h2,h3,h4,h5,h6
+{
+	font-weight:bold;
+}
+
+.titre h2
+{
+    text-align: center;
+    color: rgb(157,140,47);
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+section
+{
+    height: 200px
+    padding: 50px 0;
+    
+}
+
+#head
+{
+    text-align: center;
+}
+
+#head h1, #marque
+{
+    color: rgb(64,0,64);
+
+}
+#head p
+{
+    font-style: italic;
+}
+
+#reservation
+{
+    text-align: center;
+}
+
+
+
+footer
+{
+    text-align: center;
+    height: 150px;
+    background: rgb(191,193,200);
+    padding-top: 20px;
+}
+
+
+
+#nous span
+{
+    padding-left: 35px;
+}
+#nous .glyphicon
+{
+    font-size: 50px;
+}
+
+.img-fluid
+{
+    width:100%;
+    height: auto;
+    
+}
+
