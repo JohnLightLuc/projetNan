@@ -1,0 +1,116 @@
+/* PAGEE PRINCIPALE*/
+
+    #head h1
+      {
+        font-family: 'Crete+Round','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        
+      }
+      #head p
+      {
+        text-align: center;
+        font-style: italic;
+      }
+
+
+
+#mainimage  img
+{
+    
+    width: 900px;
+    height: 100vh;
+    margin: 
+    
+}
+
+#alimentation
+{
+   padding: 30px;
+   height: 500px;
+   
+}
+
+#alimentation h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+/* FRUIT */
+
+#fruit h1
+{
+    margin-top: 30px;
+    
+}
+
+#fruit h3
+{
+
+}
+
+
+
+
+
+
+/* CONNEXION */
+#moncontenu 
+{
+    background-color:#1A237E;
+    height: 500px;
+}
+
+ #moncontenu h1
+{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    
+
+}
+
+#moncontenu form
+{
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+/* INSCRIPTION */
+
+#inscription h1
+{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#inscription form
+{
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #E1F5FE;
+
+
+}
+
+
+/* FOOTER */    
+
+     footer
+     {
+        height: 200px;
+        background: #2C3E50  ;
+        color: white;
+        margin-top: 50px;
+      }
+
+      footer p
+      {
+        text-align: center;
+        padding-top: 150px;
+      }

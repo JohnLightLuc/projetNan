@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+
+      
+    #head h1
+      {
+        font-family: 'Crete+Round','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        
+      }
+      #head p
+      {
+        text-align: center;
+        font-style: italic;
+      }
+
+      #inscription h1
+      {
+          margin-top: 50px;
+          text-align: center;
+      }
+
+      #inscription form
+      {
+        margin-top: 40px;
+        padding: 40px;
+        border-radius: 10px;
+        background-color: #E1F5FE;
+      }
+
+      footer
+     {
+        height: 200px;
+        background: #2C3E50  ;
+        color: white;
+        margin-top: 50px;
+      }
+
+      footer p
+      {
+        text-align: center;
+        padding-top: 150px;
+      }
+
+    </style>
+
+  </head>
+  <body >
+    
+      <div class="container"> 
+          <div id="head">
+              <h1><span class="titre">Le nutritioniste</span> </h1>
+              <p>Le guide d' une bonne alimentation</p>
+           </div>
+      </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Le nutritioniste</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../html/index.html#main-image">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/index.html#alimentation">Nutrition?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/index.html#fruits">Les fruits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/index.htm#maladies">Maladies nutritionnelles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/index.html#conseils">Conseils</a>
+                </li>
+              </ul>
+              <form
+               class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+<section id="inscription">
+          <h1>Nous contacter</h1>
+
+
+<div class="conatainer-fluid">
+    <div class="row">
+    <div class="col-sm-3 md-3 col-lg-3"></div>
+    <div class="col-sm-6 md-6 col-lg-6">
+      
+    <div id="test"></div>
+    <div id ="retour"></div>
+
+        <form method="POST"action="/traitement">
+            <div class="form-group row">
+              <label for="nom" class="col-sm-2 col-form-label">Nom</label>
+              <div class="col-sm-10">
+                <input type="text"  class="form-control" name="nom" id="nom" placeholder="Entrer votre nom">
+              </div>
+              <p id="nomError"></p>
+            </div>
+
+            <div class="form-group row">
+              <label for="prenom" class="col-sm-2 col-form-label">Prenom</label>
+              <div class="col-sm-10">
+                <input type="text"  class="form-control" name="prenom" id="prenom" placeholder="Entrer votre prénom">
+              </div>
+              <p id="prenomError"></p>
+              
+            </div>
+
+            <div class="form-group row">
+                <label for="pseudo" class="col-sm-2 col-form-label" name ="pseudo">Pseudo</label>
+                <div class="col-sm-10">
+                  <input type="text" name = "pseudo"  class="form-control" id="pseudo" placeholder="Entrer votre pseudo">
+                </div>
+                <p id="pseudoError"></p>
+            </div>
+
+            <div class="form-group row">
+              <label for="email" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              </div>
+              <p id="emailError"></p>
+            </div>
+
+            <div class="form-group row">
+                <label for="message" class="col-sm-2 col-form-label">Entrer votre message</label>
+                <div class="col-sm-10">
+                  <textarea  class="form-control" name="message" id="message" placeholder="Entrer votre préocupation"></textarea>
+                </div>
+                <p id="messageError"></p>
+            </div>
+
+            <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+
+            
+
+          </form>
+
+    </div>
+      <div class="col-sm-3 md-3 col-lg-3"></div>
+    </div>
+</div>
+</section>
+
+<footer>
+  <p>&copy; Tous droits réservés</p>
+</footer>
+
+    
+    
+    <script src="../js/fichier.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
